@@ -1,0 +1,65 @@
+{
+    "workbench.colorTheme": "Aura Dark",
+    "editor.minimap.enabled": true,
+    "terminal.integrated.fontWeight": "1",
+    "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "editor.tabSize": 4,
+    "editor.fontWeight": "1",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.colorCustomizations": {
+      "editorCursor.foreground": "#d748b8",
+      "editor.lineHighlightBackground": "#8a43945f",
+      "editor.lineHighlightBorder": "#00e1ff5f"
+    },
+    "workbench.statusBar.visible": true,
+    "editor.lineNumbers": "on",
+    "editor.cursorStyle": "line",
+    "window.zoomLevel": 0,
+    "editor.tabCompletion": "on",
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+      {
+        "text": "TODO:",
+        "color": "#ff0000",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "HACK:",
+        "color": "#ff6600",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "NOTE:",
+        "color": "#16D8E6",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "WARNING:",
+        "color": "yellow",
+        "backgroundColor": "rgba(0,0,0,0)"
+      },
+      {
+        "text": "KEEP:",
+        "color": "#12b6a5",
+        "backgroundColor": "rgba(0,0,0,0)"
+      }
+    ],
+    "todohighlight.defaultStyle": {
+      "color": "red",
+      "backgroundColor": "#ffab00",
+      "overviewRulerColor": "rgba(0,0,0,0)",
+      "isWholeLine": false
+    },
+    "editor.formatOnSave": true,
+    "dotnet.defaultSolution": "MonProjet.sln",
+    "[csharp]": {
+      "editor.defaultFormatter": "ms-dotnettools.csharp",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      }
+    },
+    "dotnet.server.useOmnisharp": true,
+    "dotnet.watch.enableOnStartup": true
+  }

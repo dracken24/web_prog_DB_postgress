@@ -1,0 +1,121 @@
+/* font */
+@font-face {
+    font-family: 'AlexBrush';  /* Nom que vous voulez utiliser pour la police */
+    src: url('fonts/AlexBrush-Regular.ttf') format('truetype');  /* Chemin vers votre fichier de police */
+}
+
+/* body */
+body {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin-top: 80px;  /* Ajouter cette ligne pour laisser de l'espace pour le header */
+    margin-bottom: 60px;
+    /* padding-bottom: 100px; */
+}
+
+/* class */
+.AppBar {
+    display: flex;
+    justify-content: center;
+}
+
+.titre {
+    color: rgb(57, 144, 150);
+    font-size: 30px;
+    text-align: center;
+}
+
+.sous_titre {
+    color: rgb(162, 249, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.para {
+    color: rgb(162, 249, 255);
+    font-size: 16px;
+    text-align: center;
+}
+
+.photo_profil {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.APropos {
+    background-color: rgb(76, 84, 88);
+}
+
+/* id */
+#para_blue {
+    color: rgb(162, 249, 255);
+}
+
+/* lien */
+.lien {
+    color: rgba(247, 69, 179, 0.781);
+    font-size: 35px;
+    font-family: 'AlexBrush';
+    margin-right: 20px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+.Projects {
+    background-color: rgb(76, 84, 88);
+}
+
+.Contact {
+    background-color: rgb(76, 84, 88);
+}
+
+/**************************************************************************************/
+/***                                footer / headder                                ***/
+/**************************************************************************************/
+
+.footer {
+    color: rgb(71, 127, 133);
+    background-color: rgb(58, 63, 66);
+    font-size: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: calc(100% - 16px);
+    z-index: 1000;
+    margin-left: -40px;
+}
+
+.footcolor {
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    bottom: -20px;
+    width: 100%;
+    height: 55px;
+    z-index: 1000;
+}
+
+.headbar {
+    background-color: rgb(58, 63, 66);
+    position: fixed;
+    top: 0;
+    width: calc(100% - 56px);
+    height: 45px;
+    margin-right: 10px;
+    margin-left: -30px;
+    margin-top: 10px;
+    z-index: 1000;
+}
+
+.headdy {
+    background-color:  rgb(51, 51, 51);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 64px;
+    margin-top: 0px;
+    margin-left: -10px;
+    z-index: 1000;
+}
