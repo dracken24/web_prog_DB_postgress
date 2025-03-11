@@ -13,11 +13,11 @@ const pool = new Pool({
 });
 
 // Configuration OAuth2
-const CLIENT_ID = '380982231662-qcf430ah2jamigjt0tv0bk182obvqb6v.apps.googleusercontent.com';
-const CLIENT_SECRET = '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';
-const REDIRECT_URI = 'http://localhost:3001';
-const REFRESH_TOKEN = "1//01qBQVIlZu-RuCgYIARAAGAESNwF-L9IrafiZFyN7wuZcKf2NEXH9_7attNmy7nuxDt4V1neNoexKn_XtBrH05LKNpn0nDiuSfxg";
-const SCOPES = ['https://www.googleapis.com/auth/gmail.send'];
+// const CLIENT_ID = '380982231662-qcf430ah2jamigjt0tv0bk182obvqb6v.apps.googleusercontent.com';
+// const CLIENT_SECRET = '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';
+// const REDIRECT_URI = 'http://localhost:3001';
+// const REFRESH_TOKEN = "1//01qBQVIlZu-RuCgYIARAAGAESNwF-L9IrafiZFyN7wuZcKf2NEXH9_7attNmy7nuxDt4V1neNoexKn_XtBrH05LKNpn0nDiuSfxg";
+// const SCOPES = ['https://www.googleapis.com/auth/gmail.send'];
 
 const oauth2Client = new OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 oauth2Client.setCredentials({
