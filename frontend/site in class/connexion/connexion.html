@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style type="style.css"></style> -->
+</head>
+<body>
+    <div id="divgeneral" class="form">
+        <h2>Créer un compte</h2>
+        <form action="connexion.php" method="post">
+            <input type="text" name="name" placeholder="Nom" required>
+            <input type="text" name="prenom" placeholder="Prenom" required>
+            <input type="text" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="tel" name="tel" placeholder="Tel" required>
+            <input type="date" name="date" placeholder="Date" required>
+            <input type="number" name="donnez age" placeholder="Age" required>
+            <input type="url" name="url" placeholder="Url" required>
+            <input type="color" name="color" placeholder="Couleur" required>
+            <input type="file" name="file" placeholder="Fichier" required>
+            <input type="range" name="range" min="0" max="5" placeholder="Range" required>
+            <input type="checkbox" name="checkbox" placeholder="S'abonner à la newsletter" required>S'abonner à la newsletter
+            
+            <div class="check">
+                <input type="radio" name="genre" value="Homme" required>Homme
+                <input type="radio" name="genre" value="Femme" required>Femme
+                <input type="radio" name="genre" value="Autre" required>Autre
+            </div>
+
+            <select id="select" name="select" required>
+                <option value="option 1">option 1</option>
+                <option value="option 2">option 2</option>
+                <option value="option 3">option 3</option>
+                <option value="option 4">option 4</option>
+                <option value="option 5">option 5</option>
+            </select>
+
+            <textarea id="textarea" name="textarea" rows="4" required></textarea>
+
+            <button type="submit">Créer un compte</button>
+        </form>
+    </div>
+</body>
+</html>
+

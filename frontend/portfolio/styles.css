@@ -10,6 +10,7 @@ body {
     color: white;
     margin-top: 80px;  /* Ajouter cette ligne pour laisser de l'espace pour le header */
     margin-bottom: 60px;
+    text-align: center;
     /* padding-bottom: 100px; */
 }
 
@@ -41,12 +42,24 @@ body {
     width: 200px;
     height: 200px;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 2px solid rgba(162, 249, 255, 0.35);
 }
 
-.APropos {
-    background-color: rgb(76, 84, 88);
+.formulaire {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/* lien */
+.lien {
+    color: rgba(247, 69, 179, 0.781);
+    font-size: 28px;
+    /* font-family: 'AlexBrush'; */
+    margin-right: 20px;
+    margin-top: 4px;
+    text-decoration: none;
 }
 
 /* id */
@@ -54,22 +67,54 @@ body {
     color: rgb(162, 249, 255);
 }
 
-/* lien */
-.lien {
-    color: rgba(247, 69, 179, 0.781);
-    font-size: 35px;
-    font-family: 'AlexBrush';
-    margin-right: 20px;
-    margin-top: 4px;
-    text-decoration: none;
+#APropos {
+    background-color: rgb(76, 84, 88);
+    padding: 10px;
+    margin-top: 11px;
+    border-radius: 4px;
 }
 
-.Projects {
+#Projects {
     background-color: rgb(76, 84, 88);
+    padding: 10px;
+    margin-top: 11px;
+    border-radius: 4px;
 }
 
-.Contact {
+#skills {
+    /* background-color: rgb(76, 84, 88); */
+    padding: 10px;
+    margin-top: 11px;
+    border-radius: 4px;
+}
+
+#skills th {
+    color: rgb(84, 230, 222);
+}
+
+#skills td {
+    color: rgb(97, 253, 206);
+}
+
+#Contact {
     background-color: rgb(76, 84, 88);
+    padding: 10px;
+    margin-top: 11px;
+    border-radius: 4px;
+}
+
+
+.tableau_competences {
+    border: 1px solid rgb(182, 118, 255);
+    border-radius: 4px;
+    padding: 1px;
+    margin: 10px;
+    border-collapse: collapse;
+    
+}
+
+.tableau_element {
+    border: 1px solid rgb(182, 118, 255);
 }
 
 /**************************************************************************************/
@@ -86,6 +131,7 @@ body {
     width: calc(100% - 16px);
     z-index: 1000;
     margin-left: -40px;
+    border-radius: 4px;
 }
 
 .footcolor {
@@ -107,6 +153,7 @@ body {
     margin-left: -30px;
     margin-top: 10px;
     z-index: 1000;
+    border-radius: 4px;
 }
 
 .headdy {
@@ -119,3 +166,9 @@ body {
     margin-left: -10px;
     z-index: 1000;
 }
+
+/**************************************************************************************/
+/***                                   Connexion                                    ***/
+/**************************************************************************************/
+
+
