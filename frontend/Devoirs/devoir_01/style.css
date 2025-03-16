@@ -1,0 +1,199 @@
+* {
+	font-family: 'sans-serif)', cursive;
+}
+
+body {
+	background-color: #868686;
+}
+
+footer {
+	background-color: #3b44be;
+	color: #ffffff;
+	padding: 4px;
+	padding-left: 10px;
+}
+
+grid {
+	background-color: #afafaf;
+	display: grid;
+	grid-template-columns: 265px 1fr 265px;
+	gap: 20px;
+	padding: 20px;
+}
+
+.app-bar {
+    background-color: #3b44be;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+}
+
+.facebook-logo {
+	margin-right: auto;
+	/* width: 100px; */
+	/* border-radius: 50%; */
+	flex: 0 0 auto;
+}
+
+.link-button {
+	align-items: right;
+	/* flex: 0 0 auto; */
+    /* display: flex; */
+    gap: 10px;
+}
+
+.search-div {
+	display: flex;
+    align-items: center;
+	margin-right: 20px;
+    /* border-radius: 20px; */
+}
+
+.search {
+	padding: 8px;
+    border-radius: 20px;
+	width: 200px;
+    border: 1px solid #ddd;
+}
+
+.logo {
+	background-color: #2d45ca;
+	width: 45px;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	margin-right: 20px;
+}
+
+.link-logo{
+	height: 30px;
+	width: 30px;
+	border-radius: 24%;
+}
+
+.link-logo:hover {
+	transform: scale(1.1);
+}
+
+.loupe{
+	width: 30px;
+    margin-right: 4px;
+}
+
+.side-left {
+	background-color: #f5f5f5;
+	padding: 15px;
+	border-radius: 8px;
+}
+
+.content {
+	background-color: #ffffff;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.sub-content {
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: #c2e2ff;
+	border-radius: 8px;
+}
+
+.side-right {
+	background-color: #f5f5f5;
+	padding: 15px;
+	border-radius: 8px;
+}
+
+.friend-item {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+	border: none;
+}
+
+.friend-item:hover {
+	background-color: #d3d3d3;
+}
+
+.friend-avatar {
+	width: 40px;
+	border-radius: 50%;
+}
+
+.friend-name {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.profil {
+	background-image: url(https://www.csoonline.com/wp-content/uploads/2023/06/kali_linux_tools_abstract_gears_binary_data_by_nevarpp_gettyimages-688718788_2400x1600-100832674-orig.jpg?resize=1536%2C1024&quality=50&strip=all);
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	height: 150px;
+	display: flex;
+    /* align-items: center; */
+}
+
+.profil-logo {
+	height: 180px;
+	border-radius: 50%;
+	margin: 30px 0px -10px 10px;
+	border:2px solid #ddd;
+}
+
+.text-profil {
+	background-color: #b8b8b9a8;
+	color: #000000;
+	height: 100px;
+	width: 82%;
+	margin: 100px 0px 0px 10px;
+	padding: 4px;
+	border-radius: 6px;
+	border: 2px solid #ddd;
+}
+
+.text-profil h1 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.text-profil p {
+	font-size: 18px;
+	color: #000000;
+}
+
+.profil-nav-bar {
+	background-color: #743bbe;
+	height: 50px;
+	width: 100%;
+	margin-top: 80px;
+}
+
+.navBar {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	align-self: center;
+}
+
+.lien {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.lien:hover {
+	color: #aeaed6;
+	transform: scale(1.1);
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoir 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- AppBar -->
+        <div class="app-bar">
+            <div class="facebook-logo">
+                <img class="logo" src="https://i.pinimg.com/736x/94/27/49/9427491204ab665d3111bfb07705ec7c.jpg" alt="logo">
+            </div>
+            <div class="search-div">
+                <img src="https://as1.ftcdn.net/jpg/02/23/12/02/1000_F_223120218_CQ02T3AxOfeZDl7a94WS7xNKCstKIsoK.jpg" class="loupe">
+                <form action="https://www.google.com/search" method="get" target="_blank">
+                    <input class="search" type="search" placeholder="Rechercher">
+                </form>
+            </div>
+            <div class="link-button">
+                <button class="button" name="chat">
+                    <img src="https://st4.depositphotos.com/21557188/23280/v/450/depositphotos_232804510-stock-illustration-chat-icon-white-icon-shadow.jpg" class="link-logo">
+                </button>
+                <button class="button" name="email">
+                    <img src="https://e7.pngegg.com/pngimages/745/644/png-clipart-email-logo-icon-email-black-envelope-logo-miscellaneous-text-thumbnail.png" class="link-logo">
+                </button>
+                <button class="button" name="profil">
+                    <img src="https://banner2.cleanpng.com/20190913/aby/transparent-account-icon-avatar-icon-man-icon-1713872465645.webp" class="link-logo">
+                </button>
+                <button class="button" name="settings">
+                    <img src="https://www.citypng.com/public/uploads/preview/hd-settings-black-line-icon-png-701751694973543ev5sfvai0q.png" class="link-logo">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="profil">
+            <div>
+                <img class="profil-logo" src="https://avatars.githubusercontent.com/u/97993739?s=400&u=cd34ae2a530712ddc27a3b66a5df86db0ca8ea98&v=4" alt="logo">
+            </div>
+            <div class="text-profil">
+                <h1>Nom de l'utilisateur</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam qui tempore laudantium veritatis itaque odit quo. Perferendis tenetur voluptatibus officiis ipsum, sapiente cupiditate delectus earum deleniti aperiam laborum veritatis!</p>
+            </div>
+        </section>
+        <section class="profil-nav-bar">
+            <nav class="navBar">
+                    <a href="index.html" class="lien">Publications</a>
+                    <a href="#APropos" class="lien">A Propos</a>
+                    <a href="#Projects" class="lien">Amis</a>
+                    <a href="#skills" class="lien">Photos</a>
+                    <a href="#Contact" class="lien">Vidéos</a>
+            </nav>
+        </section>
+        <grid class="main-grid">
+            <!-- Barre latérale gauche-->
+            <div class="side-left">
+                <h2>Liste d'amis</h2>
+                    <!-- Structure pour chaque ami -->
+                <button class="friend-item">
+                    <img src="https://avatars.githubusercontent.com/u/193005808?v=4" class="friend-avatar">
+                    <span class="friend-name">Nom de l'ami 1</span>
+                </button>
+            </div>
+
+            <!-- Section principale -->
+            <div class="content">
+                <div class="sub-content">
+                    <h2>Section 1</h2>
+                    <!-- section 1 -->
+                </div>
+                <div class="sub-content">
+                    <h2>Section 2</h2>
+                    <!-- section 2 -->
+                </div>
+            </div>
+
+            <!-- Barre latérale droite - Suggestions d'amis -->
+            <div class="side-right">
+                <h2>Suggestions d'amis</h2>
+                <!-- Contenu des suggestions -->
+                <button class="friend-item">
+                    <img src="https://avatars.githubusercontent.com/u/63207501?v=4" class="friend-avatar">
+                    <span class="friend-name">Nom de l'ami inconnue</span>
+                </button>
+            </div>
+        </grid>
+    </main>
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+    
+</body>
+</html>
