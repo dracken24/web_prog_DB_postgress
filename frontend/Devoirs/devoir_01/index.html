@@ -14,7 +14,7 @@
                 <img class="logo" src="https://i.pinimg.com/736x/94/27/49/9427491204ab665d3111bfb07705ec7c.jpg" alt="logo">
             </div>
             <div class="search-div">
-                <img src="https://as1.ftcdn.net/jpg/02/23/12/02/1000_F_223120218_CQ02T3AxOfeZDl7a94WS7xNKCstKIsoK.jpg" class="loupe">
+                <img src="https://as1.ftcdn.net/jpg/02/23/12/02/1000_F_223120218_CQ02T3AxOfeZDl7a94WS7xNKCstKIsoK.jpg" class="link-logo">
                 <form action="https://www.google.com/search" method="get" target="_blank">
                     <input class="search" type="search" placeholder="Rechercher">
                 </form>
@@ -42,16 +42,16 @@
             </div>
             <div class="text-profil">
                 <h1>Nom de l'utilisateur</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam qui tempore laudantium veritatis itaque odit quo. Perferendis tenetur voluptatibus officiis ipsum, sapiente cupiditate delectus earum deleniti aperiam laborum veritatis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam qui tempore laudantium veritatis itaque odit quo. Sapiente cupiditate delectus earum deleniti aperiam laborum veritatis!</p>
             </div>
         </section>
-        <section class="profil-nav-bar">
+        <section name="navBar">
             <nav class="navBar">
-                    <a href="index.html" class="lien">Publications</a>
-                    <a href="#APropos" class="lien">A Propos</a>
-                    <a href="#Projects" class="lien">Amis</a>
-                    <a href="#skills" class="lien">Photos</a>
-                    <a href="#Contact" class="lien">Vidéos</a>
+                <button class="onglets" name="publications">Publications</button>
+                <button class="onglets" name="a_propos">A Propos</button>
+                <button class="onglets" name="amis">Amis</button>
+                <button class="onglets" name="photos">Photos</button>
+                <button class="onglets" name="videos">Videos</button>
             </nav>
         </section>
         <grid class="main-grid">
@@ -63,27 +63,90 @@
                     <img src="https://avatars.githubusercontent.com/u/193005808?v=4" class="friend-avatar">
                     <span class="friend-name">Nom de l'ami 1</span>
                 </button>
+                <button class="friend-item">
+                    <img src="https://avatars.githubusercontent.com/u/7495098?v=4" class="friend-avatar">
+                    <span class="friend-name">Nom de l'ami 2</span>
+                </button>
             </div>
 
             <!-- Section principale -->
             <div class="content">
-                <div class="sub-content">
-                    <h2>Section 1</h2>
-                    <!-- section 1 -->
-                </div>
-                <div class="sub-content">
-                    <h2>Section 2</h2>
-                    <!-- section 2 -->
-                </div>
+                <grid class="publication-grid">
+                    <div class="one-publication">
+                        <div class="sub-content">
+                            <!-- User -->
+                            <button class="friend-item-publication">
+                                <img src="https://avatars.githubusercontent.com/u/193005808?v=4" class="friend-avatar">
+                                <span class="friend-name" name="friend-name">Nom de l'ami 1</span>
+                            </button>
+                            <span class="publish-date" name="publish-date">10/01/2025</span>
+                        </div>
+                        <!-- Text -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores ea beatae eum inventore unde enim accusantium. Id unde, tempore ducimus architecto culpa iste illo mollitia doloribus vel voluptates recusandae.</p>
+                        <!-- Image -->
+                        <img src="https://d1rhhj62y2wocd.cloudfront.net/images/circuits/4584/casi2705-bloc-679cec1889228.jpg" class="publication-image" name="publication-img">
+                        <!-- Publication Action Buttons -->
+                        <div class="publication-actions">
+                            <button class="action-button">
+                                <img src="https://cdn-icons-png.flaticon.com/512/4102/4102964.png" class="action-button-img" alt="like">
+                            </button>
+                            <button class="action-button">
+                                <img src="https://cdn-icons-png.freepik.com/256/10904/10904397.png?semt=ais_hybrid" class="action-button-img" alt="like">
+                            </button>
+                            <button class="action-button">
+                                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/bouton-de-partage-6896139-5656052.png?f=webp" class="action-button-img" alt="like">
+                            </button>
+                        </div>
+                    </div>
+                </grid>
+                <grid class="publication-grid">
+                    <div class="one-publication">
+                        <div class="sub-content">
+                            <!-- User -->
+                            <button class="friend-item-publication">
+                                <img src="https://avatars.githubusercontent.com/u/17418?v=4" class="friend-avatar">
+                                <span class="friend-name" name="friend-name">Nom du publieur</span>
+                            </button>
+                            <span class="publish-date" name="publish-date">18/02/2025</span>
+                        </div>
+                        <!-- Text -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto voluptatibus tempora laborum omnis fuga autem laudantium, quaerat eligendi dolor sed odio, officiis doloremque at ut qui numquam nobis. Sed.</p>
+                        <!-- Image -->
+                        <img src="https://raamatukava.wordpress.com/wp-content/uploads/2023/10/onepiecesari.jpg?w=604" class="publication-image" name="publication-img">
+                        <!-- Publication Action Buttons -->
+                        <div class="publication-actions">
+                            <button class="action-button">
+                                <img src="https://cdn-icons-png.flaticon.com/512/4102/4102964.png" class="action-button-img" alt="like">
+                            </button>
+                            <button class="action-button">
+                                <img src="https://cdn-icons-png.freepik.com/256/10904/10904397.png?semt=ais_hybrid" class="action-button-img" alt="like">
+                            </button>
+                            <button class="action-button">
+                                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/bouton-de-partage-6896139-5656052.png?f=webp" class="action-button-img" alt="like">
+                            </button>
+                        </div>
+                    </div>
+                </grid>
             </div>
 
             <!-- Barre latérale droite - Suggestions d'amis -->
             <div class="side-right">
-                <h2>Suggestions d'amis</h2>
-                <!-- Contenu des suggestions -->
-                <button class="friend-item">
-                    <img src="https://avatars.githubusercontent.com/u/63207501?v=4" class="friend-avatar">
-                    <span class="friend-name">Nom de l'ami inconnue</span>
+                <div>
+                    <h2>Suggestions d'amis</h2>
+                    <!-- Contenu des suggestions -->
+                    <button class="friend-item">
+                        <img src="https://avatars.githubusercontent.com/u/63207501?v=4" class="friend-avatar">
+                        <span class="friend-name">Nom de l'ami inconnue</span>
+                    </button>
+                </div>
+                <div class="line"></div>
+                <h2>Publicite</h2>
+                <button class="publicite">
+                    <!-- Text -->
+                    <h3>Voyage, ROME</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores ea beatae eum inventore unde enim accusantium. Id unde, tempore ducimus architecto culpa iste illo mollitia doloribus vel voluptates recusandae.</p>
+                    <!-- Image -->
+                    <img src="https://images.ctfassets.net/lmkdg513arga/3Vhm0NRK3OMQIuSo9EDjnp/71b0844f15fbf5e0bff2751f45f6180e/iStock-539115110.jpg?w=2764&fm=jpg" class="publication-image" name="publication-img">
                 </button>
             </div>
         </grid>
