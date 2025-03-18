@@ -1,0 +1,239 @@
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px #00000079;
+    padding: 1px;
+}
+
+body {
+    background-color: #cacaca;
+    font-family: Arial;
+    text-align: center;
+}
+
+.Profil, .amis, .Contact {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.nom_utilisateur:hover{
+    color: #7B86AA;
+    cursor: pointer;
+}
+
+.nom_utilisateur::before{
+    content:"\1F601"
+}
+
+.bio::after{
+    content: "👋";
+}
+
+
+.amis > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.amis ul li {
+    background-color: #BFC8EA;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.Contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 10px;
+}
+
+input[required]{
+    box-shadow: 0 0 2px purple;
+}
+
+section:hover{
+    box-shadow: 0 0 10px #A20A03;
+}
+
+.button {
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.button:hover{
+    background-color: green;
+}
+
+.amis ul li:hover{
+    background-color: #7B86AA;
+    cursor: pointer;
+}
+
+.MonContainer{
+    display: grid;
+    /*grid-template-columns: 1fr 2fr 1fr 1fr; 
+    2 x 1fr = 2 x 50% de la taille de l'ecran
+      3 x 1fr = 3 x 33.33%
+      4 x 1fr = 4 x 25%
+    */
+
+
+    grid-template-areas:
+    "header header"
+    /* "monNav monNav" */
+    "mesAmis profil"
+    "mesAmis ContactezMoi";
+
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+.MonContainer > nav{
+    grid-area: monNav;
+}
+
+.MonContainer > header{
+    grid-area: header;
+    background-color: #a0d2eb;
+}
+
+.MonContainer > h1 {
+    background-color: #a0d2eb;
+    padding: 10px;
+}
+
+.MonContainer > section#Profil{
+    grid-area: profil;
+}
+
+.MonContainer > section.amis{
+    grid-area: mesAmis;
+}
+
+.MonContainer > section.Contact{
+    grid-area: ContactezMoi;
+}
+
+section:hover + p::after{
+    content: "Yes";
+    color: green;
+}
+
+section ~ p::after{
+    content: "No";
+    color: red;
+}
+
+.amis{
+    text-align: left;
+}
+
+.amis > h3{
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #a0d2eb;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav > ul > li> a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+
+nav > ul > li > a:hover{
+    background-color: #c00dc941;
+}
+
+
+nav > button{
+    display: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav > button:hover{
+    background-color: #c00dc941;
+}
+
+
+/*
+    NOTE: Responsable de l'affichage de notre page 
+    avec ecran inferieur a 770px
+*/
+@media screen and (max-width:770px){
+    body{
+        background-color: #6d6d6d; 
+    }
+
+    nav > ul > li> a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: #775179;
+    }
+
+    .MonContainer{
+        display: grid;
+
+        grid-template-areas:
+        "header"
+        "profil"
+        "mesAmis"
+        "ContactezMoi";
+
+        grid-template-columns: 1fr;
+        gap: 1%;
+    }
+
+    /*
+        NOTE: On cache le menu nav
+        pour les petits ecran
+    */
+    nav > ul{
+        display: none;
+    }
+
+    nav > ul > li> a{
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    nav > button{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}

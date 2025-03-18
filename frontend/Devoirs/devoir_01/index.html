@@ -1,3 +1,8 @@
+<!--
+    J'ai fais au mieux pour que sa ressemble a une page facebook mais
+    comme je n'ai pas de compte facebook, je ne peux pas voir la page de profil
+ -->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,15 +15,20 @@
     <header>
         <!-- AppBar -->
         <div class="app-bar">
+            <!-- Facebook logo -->
             <div class="facebook-logo">
                 <img class="logo" src="https://i.pinimg.com/736x/94/27/49/9427491204ab665d3111bfb07705ec7c.jpg" alt="logo">
             </div>
+            <!-- Search bar -->
             <div class="search-div">
-                <img src="https://as1.ftcdn.net/jpg/02/23/12/02/1000_F_223120218_CQ02T3AxOfeZDl7a94WS7xNKCstKIsoK.jpg" class="link-logo">
                 <form action="https://www.google.com/search" method="get" target="_blank">
-                    <input class="search" type="search" placeholder="Rechercher">
+                    <div class="search-container">
+                        <input class="search" type="search" placeholder="Rechercher">
+                        <img src="https://as1.ftcdn.net/jpg/02/23/12/02/1000_F_223120218_CQ02T3AxOfeZDl7a94WS7xNKCstKIsoK.jpg" class="search-icon">
+                    </div>
                 </form>
             </div>
+            <!-- Link buttons -->
             <div class="link-button">
                 <button class="button" name="chat">
                     <img src="https://st4.depositphotos.com/21557188/23280/v/450/depositphotos_232804510-stock-illustration-chat-icon-white-icon-shadow.jpg" class="link-logo">
@@ -34,8 +44,10 @@
                 </button>
             </div>
         </div>
+        <!-- ------ -->
     </header>
     <main>
+        <!-- Profil -->
         <section class="profil">
             <div>
                 <img class="profil-logo" src="https://avatars.githubusercontent.com/u/97993739?s=400&u=cd34ae2a530712ddc27a3b66a5df86db0ca8ea98&v=4" alt="logo">
@@ -45,6 +57,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam qui tempore laudantium veritatis itaque odit quo. Sapiente cupiditate delectus earum deleniti aperiam laborum veritatis!</p>
             </div>
         </section>
+        <!-- NavBar -->
         <section name="navBar">
             <nav class="navBar">
                 <button class="onglets" name="publications">Publications</button>
@@ -54,18 +67,23 @@
                 <button class="onglets" name="videos">Videos</button>
             </nav>
         </section>
+        <!-- Main Grid -->
         <grid class="main-grid">
             <!-- Barre latérale gauche-->
             <div class="side-left">
                 <h2>Liste d'amis</h2>
-                    <!-- Structure pour chaque ami -->
+            <!-- Structure pour chaque ami -->
                 <button class="friend-item">
                     <img src="https://avatars.githubusercontent.com/u/193005808?v=4" class="friend-avatar">
                     <span class="friend-name">Nom de l'ami 1</span>
+                    <!-- cercle de connexion -->
+                    <div class="friend-item-circle-Disconnected"></div>
                 </button>
+            <!-- ------------------------- -->
                 <button class="friend-item">
                     <img src="https://avatars.githubusercontent.com/u/7495098?v=4" class="friend-avatar">
                     <span class="friend-name">Nom de l'ami 2</span>
+                    <div class="friend-item-circle-Connected"></div>
                 </button>
             </div>
 
@@ -140,6 +158,7 @@
                     </button>
                 </div>
                 <div class="line"></div>
+                <!-- Publicite -->
                 <h2>Publicite</h2>
                 <button class="publicite">
                     <!-- Text -->
@@ -151,9 +170,9 @@
             </div>
         </grid>
     </main>
+    <!-- Footer -->
     <footer>
         <p>Copyright 2025</p>
     </footer>
-    
 </body>
 </html>
