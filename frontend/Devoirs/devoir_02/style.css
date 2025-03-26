@@ -1,0 +1,224 @@
+body {
+    background-color: #a9a1a1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/********************************************************************************/
+/***                                  Header                                  ***/
+/********************************************************************************/
+
+
+/********************************************************************************/
+/***                                   Main                                   ***/
+/********************************************************************************/
+
+/*-------------------------------- Pokemon Grid --------------------------------*/
+
+.grid-container{
+    background-color: #b39090;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    /* overflow-x: hidden; */
+}
+
+.grid-item{
+    background-color: #a45490;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.244);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: transform 1s, background-color 1s, box-shadow 1s, border 1s;
+    z-index: 1;
+    /* position: relative; */
+}
+
+.grid-item:hover{
+    transform: scale(1.03);
+    background-color: #95c452;
+    box-shadow: 0 8px 12px rgba(255, 242, 0, 0.566);
+    border: 2px solid #f4ff20;
+    z-index: 2;
+    position: relative;
+    /* transform-origin: center center; */
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.grid-item-content{
+    background-color: #e5e246;
+    color: #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+    padding: 6px;
+}
+
+.grid-item-content h3{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item-content h4{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item-content p{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item-content div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.grid-item-content div h4 {
+    margin: 0;
+}
+
+.grid-item-content div p {
+    margin: 0;
+    padding: 0;
+}
+
+/********************************************************************************/
+/***                                  Footer                                  ***/
+/********************************************************************************/
+
+.footer-content{
+    background-color: #4e4e4e;
+    color: #cbcbcb;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer-content a{
+    color: #97b5cc;
+    text-decoration: none;
+}
+
+.footer-sub-content{
+    margin: 0;
+    padding: 0;
+    background-color: #373737;
+    color: #cbcbcb;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+/********************************************************************************/
+/***                                Responsive                                ***/
+/********************************************************************************/
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: #974b9a; 
+        font-size: 14px;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        background-color: #5e5dae;
+        font-size: 12px;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
+/********************************************************************************/
+/***                                  Types                                   ***/
+/********************************************************************************/
+
+.plante{
+    background-color: #4cc858e4;
+    /* border-radius: 5px; */
+}
+
+.poison{
+    background-color: #2eff43;
+    /* border-radius: 5px; */
+}
+
+.feu{
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+.eau{
+    background-color: #6da0ff;
+    border-radius: 5px;
+}
+
+.psy{
+    background-color: #ff96ec;
+    border-radius: 5px;
+}
+
+.vol{
+    background-color: #baffff;
+    border-radius: 5px;
+}
+
+.normal{
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+.roche{
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+.sol{
+    background-color: #cab6a5;
+    border-radius: 5px;
+}
+
+.tenebres{
+    background-color: #333131;
+    border-radius: 5px;
+}
+
+.dragon{
+    background-color: #aa4935;
+    border-radius: 5px;
+}
+
+.fee{
+    background-color: #f491e4;
+    border-radius: 5px;
+}
+
+.white{
+    color: #ffffff;
+}

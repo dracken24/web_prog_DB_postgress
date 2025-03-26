@@ -1,0 +1,11 @@
+@using Microsoft.Extensions.Logging
+@inject ILogger<ThemeButton> Logger
+
+<button class="btn btn-primary" @onclick="ToggleTheme">Toggle Theme</button>
+
+@code {
+    private void ToggleTheme()
+    {
+        Logger.LogInformation("Theme button clicked");
+    }
+}

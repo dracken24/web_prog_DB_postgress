@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "coreclr",
+      "request": "launch",
+      "name": "Launch ASP.NET Core App",
+      "program": "${workspaceFolder}/bin/Debug/net9.0/${input:executableName}.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "preLaunchTask": "build"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "executableName",
+      "description": "Enter the name of your executable (e.g., aspNetApp)"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/aspNetApp.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ],
+  "csharp.experimental.debug.hotReload": true,
+  "csharp.debug.hotReloadOnSave": true
+}
+
+// dotnet watch run
