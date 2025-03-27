@@ -11,211 +11,239 @@
 </head>
 <body>
     <header>
-        <h1>Pokédex – Galerie des Pokémon</h1>
+        <div>
+            <img src="https://static.wikia.nocookie.net/doblaje/images/4/4b/Pok%C3%A9dex_logo.png/revision/latest?cb=20231114185508&path-prefix=es">
+            <h1>-  Galerie des Pokémon -</h1>
+        </div>
         <h2>Découvrez les Pokémon et leurs types à travers une galerie interactive.</h2>
     </header>
 
     <main>
-        <grid class="grid-container">
+        <!-- Barre de recherche -->
+        <section class="barre-recherche">
+            <input type="text" placeholder="Rechercher un Pokémon">
+            <button>Rechercher</button>
+        </section>
 
-            <div class="grid-item plante">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png">
-                <div class="grid-item-content">
-                    <h3>Bulbasaur</h3>
-                    <p>#001</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="plante">Plante</p>
-                        <p class="poison">Poison</p>
-                    </div>
-                </div>
-            </div>
+        <section>
+            <!-- Grid Container pour tous les Pokémon -->
+            <grid class="grid-container">
 
-            <div class="grid-item normal">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png">
-                <div class="grid-item-content">
-                    <h3>Eevee</h3>
-                    <p>#133</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="normal">Normal</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item plante">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png">
+                    <div class="grid-item-content">
+                        <h3>Bulbasaur</h3>
+                        <p>#001</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="plante">Plante</p>
+                            <p class="poison">Poison</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="grid-item tenebres">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png">
-                <div class="grid-item-content">
-                    <h3>Umbreon</h3>
-                    <p>#197</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="tenebres white">Ténèbres</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="grid-item dragon">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/384.png">
-                <div class="grid-item-content">
-                    <h3>Rayquaza</h3>
-                    <p>#384</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="vol">Vol</p>
-                        <p class="dragon white">Dragon</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item normal">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png">
+                    <div class="grid-item-content">
+                        <h3>Eevee</h3>
+                        <p>#133</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="normal">Normal</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item tenebres">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png">
+                    <div class="grid-item-content">
+                        <h3>Umbreon</h3>
+                        <p>#197</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="tenebres white">Ténèbres</p>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="grid-item feu">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png">
-                <div class="grid-item-content">
-                    <h3>Charmander</h3>
-                    <p>#004</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="feu white">Feu</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item dragon">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/384.png">
+                    <div class="grid-item-content">
+                        <h3>Rayquaza</h3>
+                        <p>#384</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="vol">Vol</p>
+                            <p class="dragon white">Dragon</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item eau">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png">
-                <div class="grid-item-content">
-                    <h3>Squirtle</h3>
-                    <p>#007</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="eau">Eau</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item feu">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png">
+                    <div class="grid-item-content">
+                        <h3>Charmander</h3>
+                        <p>#004</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="feu white">Feu</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item vol">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png">
-                <div class="grid-item-content">
-                    <h3>Spearow</h3>
-                    <p>#021</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="vol">Vol</p>
-                        <p class="normal">Normal</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item eau">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png">
+                    <div class="grid-item-content">
+                        <h3>Squirtle</h3>
+                        <p>#007</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="eau">Eau</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item fee">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png">
-                <div class="grid-item-content">
-                    <h3>Jigglypuff</h3>
-                    <p>#039</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="normal">Normal</p>
-                        <p class="fee">Fee</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item vol">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png">
+                    <div class="grid-item-content">
+                        <h3>Spearow</h3>
+                        <p>#021</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="vol">Vol</p>
+                            <p class="normal">Normal</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item normal">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png">
-                <div class="grid-item-content">
-                    <h3>Meowth</h3>
-                    <p>#052</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="normal">Normal</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item fee">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png">
+                    <div class="grid-item-content">
+                        <h3>Jigglypuff</h3>
+                        <p>#039</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="normal">Normal</p>
+                            <p class="fee">Fee</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item eau">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png">
-                <div class="grid-item-content">
-                    <h3>Golduck</h3>
-                    <p>#055</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="eau">Eau</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item normal">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png">
+                    <div class="grid-item-content">
+                        <h3>Meowth</h3>
+                        <p>#052</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="normal">Normal</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item psy">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png">
-                <div class="grid-item-content">
-                    <h3>Kadabra</h3>
-                    <p>#064</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="psy">Psy</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item eau">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png">
+                    <div class="grid-item-content">
+                        <h3>Golduck</h3>
+                        <p>#055</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="eau">Eau</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item feu">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png">
-                <div class="grid-item-content">
-                    <h3>Ponyta</h3>
-                    <p>#077</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="feu white">Feu</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item psy">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png">
+                    <div class="grid-item-content">
+                        <h3>Kadabra</h3>
+                        <p>#064</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="psy">Psy</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="grid-item roche">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png">
-                <div class="grid-item-content">
-                    <h3>Onix</h3>
-                    <p>#095</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="roche white">Roche</p>
-                        <p class="sol">Sol</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="grid-item eau">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png">
-                <div class="grid-item-content">
-                    <h3>Magikarp</h3>
-                    <p>#129</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="eau">Eau</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item feu">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png">
+                    <div class="grid-item-content">
+                        <h3>Ponyta</h3>
+                        <p>#077</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="feu white">Feu</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item normal">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png">
-                <div class="grid-item-content">
-                    <h3>Ditto</h3>
-                    <p>#132</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="normal">Normal</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item roche">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png">
+                    <div class="grid-item-content">
+                        <h3>Onix</h3>
+                        <p>#095</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="roche white">Roche</p>
+                            <p class="sol">Sol</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="grid-item psy">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png">
-                <div class="grid-item-content">
-                    <h3>Mewtwo</h3>
-                    <p>#150</p>
-                    <div>
-                        <h4>Type: </h4>
-                        <p class="psy">Psy</p>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item eau">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png">
+                    <div class="grid-item-content">
+                        <h3>Magikarp</h3>
+                        <p>#129</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="eau">Eau</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </grid>
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item normal">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png">
+                    <div class="grid-item-content">
+                        <h3>Ditto</h3>
+                        <p>#132</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="normal">Normal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pour 1 Pokémon -->
+                <div class="grid-item psy">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png">
+                    <div class="grid-item-content">
+                        <h3>Mewtwo</h3>
+                        <p>#150</p>
+                        <div>
+                            <h4>Type: </h4>
+                            <p class="psy">Psy</p>
+                        </div>
+                    </div>
+                </div>
+
+            </grid>
+        </section>
     </main>
 
     <footer>

@@ -1,42 +1,97 @@
 body {
-    background-color: #a9a1a1;
-    font-family: Arial, sans-serif;
+    background-color: #d51717;
+    font-family: Arial;
     margin: 0;
     padding: 0;
+}
+
+main{
+    background-color: #e4e4e4;
+    border: 10px solid #000000;
 }
 
 /********************************************************************************/
 /***                                  Header                                  ***/
 /********************************************************************************/
 
+header{
+    height: 190px;
+    color: #cbcbcb;
+    border-top: 10px solid #000000;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New';
+    
+}
+
+header > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header > div > h1{
+    padding-top: 16px;
+}
 
 /********************************************************************************/
-/***                                   Main                                   ***/
+/***                                   Body                                   ***/
 /********************************************************************************/
+
+/*-------------------------------- Barre de recherche --------------------------------*/
+
+.barre-recherche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid #000000;
+}
+
+.barre-recherche input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.barre-recherche button{
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.barre-recherche button:hover{
+    background-color: #c3c3c3;
+}
 
 /*-------------------------------- Pokemon Grid --------------------------------*/
 
 .grid-container{
-    background-color: #b39090;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 15px;
     width: 100%;
-    padding: 10px;
     box-sizing: border-box;
     padding: 20px;
-    /* overflow-x: hidden; */
 }
 
+/*-------------------------------- One Pokemon --------------------------------*/
 .grid-item{
     background-color: #a45490;
     width: 100%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.244);
     border: 2px solid transparent;
-    border-radius: 10px;
     transition: transform 1s, background-color 1s, box-shadow 1s, border 1s;
     z-index: 1;
-    /* position: relative; */
 }
 
 .grid-item:hover{
@@ -46,7 +101,6 @@ body {
     border: 2px solid #f4ff20;
     z-index: 2;
     position: relative;
-    /* transform-origin: center center; */
 }
 
 .grid-item img {
@@ -57,27 +111,19 @@ body {
     box-sizing: border-box;
 }
 
+/*-------------------------------- Pokemon Infos --------------------------------*/
+
 .grid-item-content{
     background-color: #e5e246;
     color: #303030;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 4px 4px;
     padding: 6px;
 }
 
-.grid-item-content h3{
-    margin: 0;
-    padding: 0;
-}
-
-.grid-item-content h4{
-    margin: 0;
-    padding: 0;
-}
-
-.grid-item-content p{
+.grid-item-content h3, h4, p{
     margin: 0;
     padding: 0;
 }
@@ -89,42 +135,36 @@ body {
     gap: 5px;
 }
 
-.grid-item-content div h4 {
-    margin: 0;
-}
-
-.grid-item-content div p {
-    margin: 0;
-    padding: 0;
-}
-
 /********************************************************************************/
 /***                                  Footer                                  ***/
 /********************************************************************************/
 
+footer{
+    border: 10px solid #000000;
+}
+
 .footer-content{
-    background-color: #4e4e4e;
-    color: #cbcbcb;
+    background-color: #d51717;
+    color: #fdfdfd;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .footer-content a{
-    color: #97b5cc;
+    color: #95d1ff;
     text-decoration: none;
 }
 
 .footer-sub-content{
     margin: 0;
     padding: 0;
-    background-color: #373737;
+    background-color: #d73f3f;
     color: #cbcbcb;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -133,11 +173,6 @@ body {
 /********************************************************************************/
 
 @media screen and (max-width:1200px){
-    body{
-        background-color: #974b9a; 
-        font-size: 14px;
-    }
-
     .grid-container{
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -145,8 +180,28 @@ body {
 
 @media screen and (max-width:768px){
     body{
-        background-color: #5e5dae;
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header > h2{
+        margin-top: -10px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header > div{
+        flex-direction: column;
+    }
+
+    header > div > h1{
+        margin-top: -16px;
     }
 
     .grid-container{
@@ -154,6 +209,20 @@ body {
     }
 }
 
+@media screen and (max-width:420px){
+    header > div > img{
+        width: 100%;
+    }
+
+    header > div > h1{
+        font-size: 18px;
+    }
+
+    header > h2{
+        font-size: 12px;
+        padding-top: 6px;
+    }
+}
 
 /********************************************************************************/
 /***                                  Types                                   ***/
@@ -161,12 +230,12 @@ body {
 
 .plante{
     background-color: #4cc858e4;
-    /* border-radius: 5px; */
+    border-radius: 5px;
 }
 
 .poison{
     background-color: #2eff43;
-    /* border-radius: 5px; */
+    border-radius: 5px;
 }
 
 .feu{
@@ -190,7 +259,7 @@ body {
 }
 
 .normal{
-    background-color: #eeeeee;
+    background-color: #d4d4d4;
     border-radius: 5px;
 }
 
