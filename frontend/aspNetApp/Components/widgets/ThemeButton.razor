@@ -1,11 +1,15 @@
-@using Microsoft.Extensions.Logging
-@inject ILogger<ThemeButton> Logger
+@rendermode InteractiveServer
+@using Microsoft.JSInterop
+@inject IJSRuntime JSRuntime
 
 <button class="btn btn-primary" @onclick="ToggleTheme">Toggle Theme</button>
 
 @code {
-    private void ToggleTheme()
+    private async Task ToggleTheme()
     {
-        Logger.LogInformation("Theme button clicked");
+        // Console.WriteLine("Theme button clicked");
+        var theme = await JSRuntime.InvokeAsync<string>("getTheme");
+        var newTheme = theme == "dark" ? "light" : "dark";
+        await JSRuntime.InvokeVoidAsync("setTheme", newTheme);
     }
 }

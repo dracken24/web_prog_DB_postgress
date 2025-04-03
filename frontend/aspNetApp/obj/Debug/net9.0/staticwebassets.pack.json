@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\aspNetApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\aspNetApp.luono5orkn.bundle.scp.css"
+      "PackagePath": "staticwebassets\\aspNetApp.x6771n948z.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\app.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
     },
     {
       "Id": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

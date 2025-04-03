@@ -58,3 +58,50 @@ h1:focus {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+/****************************************** Themes ******************************************/
+
+:root[data-theme="light"] {
+    /* Couleurs pour le thème clair */
+    --bg-color: #dadada;
+    --text-color: #333333;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --border-color: #dee2e6;
+    --card-bg: #ffffff;
+    --hover-color: #f8f9fa;
+    --button-color: #4a6179;
+}
+
+:root[data-theme="dark"] {
+    /* Couleurs pour le thème sombre */
+    --bg-color: #323232;
+    --text-color: #e0e0e0;
+    --primary-color: #90caf9;
+    --secondary-color: #a0aec0;
+    --border-color: #2d3748;
+    --card-bg: #1e1e1e;
+    --hover-color: #2d2d2d;
+    --button-color: #0175d4;
+}
+
+/* Application des variables */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+a {
+    color: var(--primary-color);
+}

@@ -20,7 +20,6 @@ C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\scopedcss\bundle\aspNetApp.styles.css
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\scopedcss\projectbundle\aspNetApp.bundle.scp.css
-C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\91e2u9jcpm-khy4lop6wu.gz
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\nb16dw4rue-bqjiyaj88i.gz
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\chr24ty7yt-c2jlpeoesf.gz
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\w7aeml6k4n-erw9l3u2r3.gz
@@ -65,8 +64,6 @@ C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\vuhalme68z-h1s4sie4z3.gz
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\4ayots05aj-63fj8s7r0e.gz
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\n6egfhsy53-0j3bgjxly4.gz
-C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\roa7nybauq-luono5orkn.gz
-C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\h6oqvlges5-luono5orkn.gz
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -82,3 +79,7 @@ C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\aspNetApp.pdb
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\aspNetApp.genruntimeconfig.cache
 C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\ref\aspNetApp.dll
+C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\q7p2dhywvk-5bhpbw3qj9.gz
+C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\91e2u9jcpm-h0zbzx7ken.gz
+C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\roa7nybauq-x6771n948z.gz
+C:\Users\drack\Documents\prog\web_prog_DB_postgress\frontend\aspNetApp\obj\Debug\net9.0\compressed\h6oqvlges5-x6771n948z.gz

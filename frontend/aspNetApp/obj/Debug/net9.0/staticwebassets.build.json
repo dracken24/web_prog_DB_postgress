@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LPlQlU19+kv3RtznO/gpqIAlbD9W6GOEYlftzrswQE0=",
+  "Hash": "u5rnDD7As4zXCyqlckd0v/eniOikXOOXnecMwjbOlgQ=",
   "Source": "aspNetApp",
   "BasePath": "_content/aspNetApp",
   "Mode": "Default",
@@ -269,12 +269,12 @@
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-khy4lop6wu.gz",
+      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-h0zbzx7ken.gz",
       "SourceId": "aspNetApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/aspNetApp",
-      "RelativePath": "app#[.{fingerprint=khy4lop6wu}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=h0zbzx7ken}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -283,8 +283,8 @@
       "RelatedAsset": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "596e5mu3rg",
-      "Integrity": "KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=",
+      "Fingerprint": "wu3vlftrhc",
+      "Integrity": "uHkZSCGLuhSAPI8nDYU/GEaa23ILp5xYA5TBlCAviWo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\app.css"
@@ -458,12 +458,12 @@
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-luono5orkn.gz",
+      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-x6771n948z.gz",
       "SourceId": "aspNetApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/aspNetApp",
-      "RelativePath": "aspNetApp#[.{fingerprint=luono5orkn}]!.bundle.scp.css.gz",
+      "RelativePath": "aspNetApp#[.{fingerprint=x6771n948z}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -472,8 +472,8 @@
       "RelatedAsset": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\aspNetApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "27osojdab5",
-      "Integrity": "ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=",
+      "Fingerprint": "4wea21v5hc",
+      "Integrity": "5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\aspNetApp.bundle.scp.css"
@@ -731,6 +731,27 @@
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\q7p2dhywvk-5bhpbw3qj9.gz",
+      "SourceId": "aspNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/aspNetApp",
+      "RelativePath": "js/theme#[.{fingerprint=5bhpbw3qj9}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\js\\theme.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "683wibzao1",
+      "Integrity": "VuZi5eGiP3J3DevB6XROy60BsBamNxtWHALoIZaqwEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\js\\theme.js"
+    },
+    {
       "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\razak7d8oc-493y06b0oq.gz",
       "SourceId": "aspNetApp",
       "SourceType": "Discovered",
@@ -794,12 +815,12 @@
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-luono5orkn.gz",
+      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-x6771n948z.gz",
       "SourceId": "aspNetApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/aspNetApp",
-      "RelativePath": "aspNetApp#[.{fingerprint=luono5orkn}]?.styles.css.gz",
+      "RelativePath": "aspNetApp#[.{fingerprint=x6771n948z}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -808,8 +829,8 @@
       "RelatedAsset": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\aspNetApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "27osojdab5",
-      "Integrity": "ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=",
+      "Fingerprint": "4wea21v5hc",
+      "Integrity": "5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\aspNetApp.styles.css"
@@ -1018,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "luono5orkn",
-      "Integrity": "c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=",
+      "Fingerprint": "x6771n948z",
+      "Integrity": "KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\aspNetApp.styles.css"
@@ -1039,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "luono5orkn",
-      "Integrity": "c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=",
+      "Fingerprint": "x6771n948z",
+      "Integrity": "KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\aspNetApp.bundle.scp.css"
@@ -1060,8 +1081,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "khy4lop6wu",
-      "Integrity": "aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=",
+      "Fingerprint": "h0zbzx7ken",
+      "Integrity": "/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -1086,6 +1107,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\js\\theme.js",
+      "SourceId": "aspNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\",
+      "BasePath": "_content/aspNetApp",
+      "RelativePath": "js/theme#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5bhpbw3qj9",
+      "Integrity": "4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\theme.js"
     },
     {
       "Identity": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2015,12 +2057,12 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-khy4lop6wu.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-h0zbzx7ken.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000636132316"
+          "Quality": "0.000526315789"
         }
       ],
       "ResponseHeaders": [
@@ -2030,15 +2072,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "1899"
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"uHkZSCGLuhSAPI8nDYU/GEaa23ILp5xYA5TBlCAviWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 14:23:37 GMT"
+          "Value": "Thu, 27 Mar 2025 16:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2058,13 +2100,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "W/\"/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw="
         }
       ]
     },
@@ -2079,7 +2121,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2900"
+          "Value": "4003"
         },
         {
           "Name": "Content-Type",
@@ -2087,11 +2129,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "\"/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 14:23:37 GMT"
+          "Value": "Thu, 27 Mar 2025 16:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2101,13 +2143,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw="
         }
       ]
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-khy4lop6wu.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-h0zbzx7ken.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2116,7 +2158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "1899"
         },
         {
           "Name": "Content-Type",
@@ -2124,11 +2166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"uHkZSCGLuhSAPI8nDYU/GEaa23ILp5xYA5TBlCAviWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 14:23:37 GMT"
+          "Value": "Thu, 27 Mar 2025 16:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2146,18 +2188,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+          "Value": "sha256-uHkZSCGLuhSAPI8nDYU/GEaa23ILp5xYA5TBlCAviWo="
         }
       ]
     },
     {
-      "Route": "app.khy4lop6wu.css",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-khy4lop6wu.gz",
+      "Route": "app.h0zbzx7ken.css",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-h0zbzx7ken.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000636132316"
+          "Quality": "0.000526315789"
         }
       ],
       "ResponseHeaders": [
@@ -2167,15 +2209,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "1899"
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"uHkZSCGLuhSAPI8nDYU/GEaa23ILp5xYA5TBlCAviWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 14:23:37 GMT"
+          "Value": "Thu, 27 Mar 2025 16:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2195,13 +2237,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "W/\"/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "khy4lop6wu"
+          "Value": "h0zbzx7ken"
         },
         {
           "Name": "label",
@@ -2209,12 +2251,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw="
         }
       ]
     },
     {
-      "Route": "app.khy4lop6wu.css",
+      "Route": "app.h0zbzx7ken.css",
       "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2224,7 +2266,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2900"
+          "Value": "4003"
         },
         {
           "Name": "Content-Type",
@@ -2232,11 +2274,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "\"/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 14:23:37 GMT"
+          "Value": "Thu, 27 Mar 2025 16:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2246,7 +2288,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "khy4lop6wu"
+          "Value": "h0zbzx7ken"
         },
         {
           "Name": "label",
@@ -2254,13 +2296,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-/+J2Aje0/ZXV01Ylki3kWblkEEYvFgJ+CGalQPeglWw="
         }
       ]
     },
     {
-      "Route": "app.khy4lop6wu.css.gz",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-khy4lop6wu.gz",
+      "Route": "app.h0zbzx7ken.css.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\91e2u9jcpm-h0zbzx7ken.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2269,7 +2311,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "1899"
         },
         {
           "Name": "Content-Type",
@@ -2277,11 +2319,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"uHkZSCGLuhSAPI8nDYU/GEaa23ILp5xYA5TBlCAviWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 14:23:37 GMT"
+          "Value": "Thu, 27 Mar 2025 16:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2299,7 +2341,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "khy4lop6wu"
+          "Value": "h0zbzx7ken"
         },
         {
           "Name": "label",
@@ -2307,18 +2349,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+          "Value": "sha256-uHkZSCGLuhSAPI8nDYU/GEaa23ILp5xYA5TBlCAviWo="
         }
       ]
     },
     {
       "Route": "aspNetApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-luono5orkn.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-x6771n948z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000562429696"
+          "Quality": "0.000552486188"
         }
       ],
       "ResponseHeaders": [
@@ -2328,15 +2370,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1777"
+          "Value": "1809"
         },
         {
           "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2356,13 +2398,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
+          "Value": "W/\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
         }
       ]
     },
@@ -2377,7 +2419,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5965"
+          "Value": "6075"
         },
         {
           "Name": "Content-Type",
@@ -2385,11 +2427,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
+          "Value": "\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2399,13 +2441,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
         }
       ]
     },
     {
       "Route": "aspNetApp.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-luono5orkn.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-x6771n948z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2414,7 +2456,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1777"
+          "Value": "1809"
         },
         {
           "Name": "Content-Type",
@@ -2422,11 +2464,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2444,18 +2486,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ="
+          "Value": "sha256-5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q="
         }
       ]
     },
     {
-      "Route": "aspNetApp.luono5orkn.bundle.scp.css",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-luono5orkn.gz",
+      "Route": "aspNetApp.styles.css",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-x6771n948z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000562429696"
+          "Quality": "0.000552486188"
         }
       ],
       "ResponseHeaders": [
@@ -2465,15 +2507,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1777"
+          "Value": "1809"
         },
         {
           "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
+        }
+      ]
+    },
+    {
+      "Route": "aspNetApp.styles.css",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\aspNetApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
+        }
+      ]
+    },
+    {
+      "Route": "aspNetApp.styles.css.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-x6771n948z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q="
+        }
+      ]
+    },
+    {
+      "Route": "aspNetApp.x6771n948z.bundle.scp.css",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-x6771n948z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000552486188"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1809"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2493,13 +2672,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
+          "Value": "W/\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "luono5orkn"
+          "Value": "x6771n948z"
         },
         {
           "Name": "label",
@@ -2507,12 +2686,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
         }
       ]
     },
     {
-      "Route": "aspNetApp.luono5orkn.bundle.scp.css",
+      "Route": "aspNetApp.x6771n948z.bundle.scp.css",
       "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\aspNetApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2522,7 +2701,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5965"
+          "Value": "6075"
         },
         {
           "Name": "Content-Type",
@@ -2530,11 +2709,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
+          "Value": "\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2544,7 +2723,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "luono5orkn"
+          "Value": "x6771n948z"
         },
         {
           "Name": "label",
@@ -2552,13 +2731,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
         }
       ]
     },
     {
-      "Route": "aspNetApp.luono5orkn.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-luono5orkn.gz",
+      "Route": "aspNetApp.x6771n948z.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\h6oqvlges5-x6771n948z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2567,7 +2746,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1777"
+          "Value": "1809"
         },
         {
           "Name": "Content-Type",
@@ -2575,11 +2754,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2597,7 +2776,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "luono5orkn"
+          "Value": "x6771n948z"
         },
         {
           "Name": "label",
@@ -2605,18 +2784,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ="
+          "Value": "sha256-5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q="
         }
       ]
     },
     {
-      "Route": "aspNetApp.luono5orkn.styles.css",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-luono5orkn.gz",
+      "Route": "aspNetApp.x6771n948z.styles.css",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-x6771n948z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000562429696"
+          "Quality": "0.000552486188"
         }
       ],
       "ResponseHeaders": [
@@ -2626,15 +2805,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1777"
+          "Value": "1809"
         },
         {
           "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2654,13 +2833,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
+          "Value": "W/\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "luono5orkn"
+          "Value": "x6771n948z"
         },
         {
           "Name": "label",
@@ -2668,12 +2847,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
         }
       ]
     },
     {
-      "Route": "aspNetApp.luono5orkn.styles.css",
+      "Route": "aspNetApp.x6771n948z.styles.css",
       "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\aspNetApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2683,7 +2862,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5965"
+          "Value": "6075"
         },
         {
           "Name": "Content-Type",
@@ -2691,11 +2870,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
+          "Value": "\"KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2705,7 +2884,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "luono5orkn"
+          "Value": "x6771n948z"
         },
         {
           "Name": "label",
@@ -2713,13 +2892,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
+          "Value": "sha256-KQ04QJwtrGcZu5VfLvwBJg5nL+eVbr+KvBwwmB4mgrg="
         }
       ]
     },
     {
-      "Route": "aspNetApp.luono5orkn.styles.css.gz",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-luono5orkn.gz",
+      "Route": "aspNetApp.x6771n948z.styles.css.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-x6771n948z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2728,7 +2907,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1777"
+          "Value": "1809"
         },
         {
           "Name": "Content-Type",
@@ -2736,11 +2915,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
+          "Value": "\"5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
+          "Value": "Thu, 27 Mar 2025 16:34:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2758,7 +2937,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "luono5orkn"
+          "Value": "x6771n948z"
         },
         {
           "Name": "label",
@@ -2766,144 +2945,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ="
-        }
-      ]
-    },
-    {
-      "Route": "aspNetApp.styles.css",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-luono5orkn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000562429696"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1777"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
-        }
-      ]
-    },
-    {
-      "Route": "aspNetApp.styles.css",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\aspNetApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5965"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-c5bIrlB8wY/NnUqcRsdKw1oclo6tSTu1w+TCSJy+Ed4="
-        }
-      ]
-    },
-    {
-      "Route": "aspNetApp.styles.css.gz",
-      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\roa7nybauq-luono5orkn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1777"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 19:31:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ggLpZ/wtr32MweG9RXW0MpudmbtttijA9LzZ9WA2chQ="
+          "Value": "sha256-5H+gHJ5/JJhKhS3vaBiwkbv5NzyWuvChkMMq77f5m0Q="
         }
       ]
     },
@@ -2986,6 +3028,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.5bhpbw3qj9.js",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\q7p2dhywvk-5bhpbw3qj9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004347826087"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VuZi5eGiP3J3DevB6XROy60BsBamNxtWHALoIZaqwEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bhpbw3qj9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.5bhpbw3qj9.js",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\js\\theme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bhpbw3qj9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.5bhpbw3qj9.js.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\q7p2dhywvk-5bhpbw3qj9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VuZi5eGiP3J3DevB6XROy60BsBamNxtWHALoIZaqwEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bhpbw3qj9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VuZi5eGiP3J3DevB6XROy60BsBamNxtWHALoIZaqwEw="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.js",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\q7p2dhywvk-5bhpbw3qj9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004347826087"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VuZi5eGiP3J3DevB6XROy60BsBamNxtWHALoIZaqwEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.js",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\wwwroot\\js\\theme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4T7XzNuafnA+OXJBhQejG8TI1cLWG1/f+YCv+dTyx+0="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.js.gz",
+      "AssetFile": "C:\\Users\\drack\\Documents\\prog\\web_prog_DB_postgress\\frontend\\aspNetApp\\obj\\Debug\\net9.0\\compressed\\q7p2dhywvk-5bhpbw3qj9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VuZi5eGiP3J3DevB6XROy60BsBamNxtWHALoIZaqwEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VuZi5eGiP3J3DevB6XROy60BsBamNxtWHALoIZaqwEw="
         }
       ]
     },
