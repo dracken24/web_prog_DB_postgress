@@ -148,7 +148,7 @@
 -->
 
 <div class="container p-3"> 
-  <h1>Liste des personnages</h1>
+	<h1>Liste des personnages</h1>
 </div>
 
 <div class="shadow-lg border container p-3">
@@ -158,11 +158,16 @@
 
 		<div class="card-body">
 			<h5 class="card-title">Monkey D Luffy</h5>
-			<p class="card-text">Wanted : 3.000.000.000</p>
+			<p class="card-text"id="monP">Wanted : 3.000.000.000</p>
 			
 				<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#Luffy">
 					Voir Luffy
-				</button>		
+				</button>
+				
+				<button type="button" class="btn btn-warning" onclick="ChangerPrix()">
+					Voir Luffy
+				</button>
+				
 			</div>
 	</div>
 </div>
@@ -320,6 +325,50 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	let x = 10;
+	let y = 20;
+	let z = x + y;
+	console.log(x);
+
+	let ville = {
+		nom: "Quebec",
+		age: 22
+	};
+	console.log(ville);
+
+	function uneFonction(nom, prenom)
+	{
+		return prenom + " " + nom;
+	}
+	console.log(uneFonction("Norris", "Chuck"));
+
+	// function flechees:
+	const hello = (nom) =>
+	{
+		// return "bonjour " + nom;
+		return `bonjour ${nom}`;
+	}
+	console.log(hello("Bob"));
+
+	let j = 0;
+	while (j < 6)
+	{
+		console.log(j++);
+	}
+
+	// Manipulation de DOMs: Document Object Model
+	// j'ai cree une balise <p id="monP">
+	// document.getElementById("monP").innerText = "Wanted : 9.99"
+
+	function ChangerPrix()
+	{
+		console.log("Click changer prix");
+		document.getElementById("monP").innerText = "Wanted : 9.99"
+	}
+
+</script>
 
 </body>
 </html>
