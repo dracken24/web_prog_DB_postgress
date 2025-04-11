@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodKeeper - Galerie</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #f5e8dc, #e8ded7);
+            font-family: 'Quicksand' , sans-serif;
+        }
+
+        .mood-card{
+            border-left: 5px solid #007bff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .mood-card:hover {
+            transform: scale(1.01);
+            transition: 0.3s;
+        }
+    </style>   
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark px-4"> 
+        <span class="navbar-brand mb-0 h1">MoodKeeper</span>
+        <div>
+            <a href="a_propos.html" class="btn btn-outline-light me-2">A propos</a>
+            <button class="btn btn-danger" onclick="logout()"><a href="index.html" style="color: #ffffff;"> Déconnexion</a></button>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+        <h2 class="text-center mb-2">Bonjour <span id="Username">Nom</span> 🦁</h2>
+        <p class="text-center mb-4">Exprime ton humeur et partage une pensée</p> 
+
+        <form id="moodForm" class="p-4 bg-white rounded shadow-sm mb-4">
+            <div class="mb-3">
+                <label for="moodSelect" class="form-label">Ton humeur du jour</label>
+                <select class="form-select" id="moodSelect" required>
+                    <option value="">-- Choisis une humeur --</option>
+                    <option value="heureux">😊 Heureux</option>
+                    <option value="triste">😢 Triste</option>
+                    <option value="stressé">😰 Stressé</option>
+                    <option value="calme">😌 Calme</option>
+                    <option value="energique">⚡ Energique</option>
+                    <option value="en colere">😡 En colere</option>
+                    <option value="amoureux">🥰 Amoureux</option>
+                    <option value="fatigué">😴 Fatigué</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label for="thoughtInput" class="form-label">Une pensée ou citation</label>
+                <input type="text" class="form-control" id="thoughtInput" placeholder="Ex: La vie est belle..">
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary w-100" id="enregistrer">Enregistrer</button>
+            </div>
+        </form>
+
+        <div id="entriesContainer"></div>
+
+    </div>
+
+    <div class="shadow-lg container border p-3" id="message">
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        //Chargement le prenom depuis LocalStorage
+        document.addEventListener('DOMContentLoaded' , () => {
+            const name = localStorage.getItem('Username'); 
+        document.getElementById('Username').textContent = name;
+        loadEntries(); });
+
+        //Gestion du formulaire
+        document.getElementById('moodForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+        
+            const mood = document.getElementById('moodSelect').value;
+            const thought = document.getElementById('thoughtInput').value;
+            const date = new Date().toLocaleDateString('fr-FR');
+
+            const entry = {mood, thought, date};
+            let entries = JSON.parse(localStorage.getItem("mood_entries") || "[]");
+            entries.unshift(entry);
+            localStorage.setItem("mood_entries", JSON.stringify(entries));
+            renderEntries();
+
+            loadEntries();
+            this.reset();
+
+            function renderEntries() {
+              const container = document.getElementById("message");
+              const entries = JSON.parse(localStorage.getItem("mood_entries") || "[]");
+              container.innerHTML = "";
+            
+              entries.forEach(entry => {
+                container.innerHTML += `
+                  <div class="col-4">
+                    <div class="card shadow border border-2 border-primary">
+                      <div class="card-body">
+                        <h5>${entry.mood}</h5>
+                        <p>"${entry.thought}"</p>
+                        <small class="text-muted">${entry.date}</small>
+                      </div>
+                    </div>
+                  </div>
+                `;
+              });
+            }
+
+            //Deconnexion
+            function logout() {
+                // localStorage.removeItem("mood_user");
+                window.location.href = 'index.html';
+            }
+        
+        });
+
+    </script>
+
+
+</body>
+</html>
