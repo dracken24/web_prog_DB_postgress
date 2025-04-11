@@ -53,13 +53,5 @@
   },
   "editor.formatOnSave": true,
   "dotnet.defaultSolution": "aspNetApp.sln",
-  "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    }
-  },
-  "dotnet.server.useOmnisharp": true,
-  "dotnet.watch.enableOnStartup": true
+  "dotnet.server.useOmnisharp": true
 }
