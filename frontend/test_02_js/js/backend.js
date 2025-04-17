@@ -13,8 +13,10 @@ document.addEventListener("DOMContentLoaded", () =>
     {
         window.location.href = "index.html";
     }
+
     const usernameElement = document.getElementById("username");
-    if (usernameElement) {
+    if (usernameElement)
+    {
         usernameElement.textContent = username;
     }
 });
